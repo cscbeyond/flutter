@@ -16,7 +16,7 @@ final List<Post> posts = [
     title: 'eee',
     author: 'h',
     imageUrl:
-        'https://cdn.jsdelivr.net/gh/flutterchina/website@1.0/images/flutter-mark-square-100.png',
+        'https://flutter.github.io/assets-for-api-docs/assets/material/app_bar.png',
   ),
   Post(
     title: 'eee',
