@@ -130,9 +130,9 @@ class PageViewDemo extends StatelessWidget {
       // pageSnapping: false,
       reverse: true, //视图顺序
       scrollDirection: Axis.horizontal, //滚动的方向
-      onPageChanged: (currenPage) => {
+      onPageChanged: (currenPage) {
         // 页面滚动的回调
-        debugPrint('Page:$currenPage')
+        debugPrint('Page:$currenPage');
       },
       controller: PageController(
         initialPage: 1, //页面初始化时显示的页面

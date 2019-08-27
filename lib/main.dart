@@ -6,6 +6,7 @@ import './demo/basic_demo.dart';
 import './demo/layout_demo.dart';
 import './demo/view_demo.dart';
 import './demo/sliver_demo.dart';
+import './demo/navigator_demo.dart';
 
 void main() => runApp(App());
 
@@ -15,7 +16,13 @@ class App extends StatelessWidget {
     // 这个方法返回的值得类型是个widget
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      // initialRoute: '/',
+      home: Home(), //最下面的路由，一开始显示的屏幕
+      // home: NavigatorDemo(), //最下面的路由，一开始显示的屏幕
+      // routes: {
+      //   '/': (context) => NavigatorDemo(),
+      //   '/about': (context) => Page(title: 'About')
+      // },
       theme: ThemeData(
           primarySwatch: Colors.yellow,
           highlightColor: Color.fromRGBO(255, 255, 255, 0.5),
